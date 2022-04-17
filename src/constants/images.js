@@ -2,7 +2,6 @@ import accessories from '../assets/accessories.jpg';
 import audio from '../assets/audio.jpg';
 import connected from '../assets/connected.jpg';
 import downArrow from '../assets/down-arrow.svg';
-import favicon from '../assets/favicon.ico';
 import game from '../assets/game.jpg';
 import logo from '../assets/logo.svg';
 import model3 from '../assets/model-3.jpg';
@@ -19,7 +18,6 @@ export default {
 	audio,
 	connected,
 	downArrow,
-	favicon,
 	game,
 	logo,
 	model3,
