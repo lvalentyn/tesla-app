@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
 
 *,
 *::after,
@@ -15,8 +15,21 @@ body {
 	overflow-x: hidden;
 }
 
+a {
+	text-decoration: none;
+
+	&:hover {
+		// background-color: rgba(23, 26, 32, .1);
+	}
+}
+
 @keyframes animateDown {
-	0%, 20%, 50%, 80%, 100% {
+
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
 		transform: translateY(0);
 	}
 

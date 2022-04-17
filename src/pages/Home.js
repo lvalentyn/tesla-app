@@ -1,12 +1,10 @@
-import styled from 'styled-components'
-
 import Section from '../components/Section'
 
 import { images } from '../constants';
 
 const Home = () => {
 	return (
-		<Container>
+		<div>
 			<Section
 				title="Model S"
 				descr="Order Online for Touchless Delivery"
@@ -55,11 +53,8 @@ const Home = () => {
 				bg={images.accessories}
 				leftBtn="Shop now"
 			/>
-		</Container>
+		</div>
 	)
 }
 
 export default Home
-
-const Container = styled.div`
-`
